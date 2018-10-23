@@ -25,16 +25,10 @@ android {
         targetSdkVersion versions.targetSdk
 
         externalNativeBuild {
-            cmake {
-                cppFlags "-std=c++11"
-            }
         }
     }
 
     externalNativeBuild {
-        cmake {
-            path "src/main/cpp/CMakeLists.txt"
-        }
     }
 }
 

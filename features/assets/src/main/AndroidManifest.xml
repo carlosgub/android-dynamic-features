@@ -22,7 +22,6 @@
     split="assets">
 
     <dist:module
-        android:hasCode="false"
         dist:onDemand="true"
         dist:title="@string/module_assets">
         <dist:fusing dist:include="true" />
